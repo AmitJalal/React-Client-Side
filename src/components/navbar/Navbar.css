@@ -1,0 +1,86 @@
+.navbar {
+    
+  background-color: #fff;
+  justify-content: space-evenly;
+}
+
+header {
+  width: 100vw;
+  height: 3.5em;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(184, 173, 184, 1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(184, 173, 184, 1);
+  box-shadow: 0px 2px 10px 0px rgba(184, 173, 184, 1);
+}
+
+header svg {
+  width: 1.5em;
+  height: 1.5em;
+  color: darkgrey;
+}
+
+header.navbar div svg:first-child {
+  width: 2.75em;
+  height: 4.5em;
+}
+
+header.navbar div svg:first-child {
+  width: 8em;
+  height: 3.75em;
+}
+
+header input {
+  width: 20em;
+  height: 2.3em;
+  padding: 1.2em;
+  background-color: whitesmoke;
+  border-radius: 0.75em;
+  position: relative;
+  border: none;
+}
+
+.search {
+  position: absolute;
+  margin-left: -2.75em;
+  margin-top: 0.15em;
+}
+
+/* header form > input[type="text"]::placeholder {
+  padding-left: 2.75em;
+}
+
+*/
+
+nav {
+  display: flex;
+}
+
+.left-links {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.05em;
+}
+.btn-login{
+  background-color: rgb(112, 148, 245);
+  color: #fff;
+  padding: 0.45em;
+  border-radius: 0.25em;
+}
+
+.camera > :nth-child(2){
+  color: rgb(239, 58, 133);
+}
+.camera > :first-child {
+  position: absolute;
+  color: rgb(198, 12, 12);
+  font-size: 0.258em;
+  position: relative;
+  margin-right: -4.3em;
+  margin-bottom: 2.9em;
+}

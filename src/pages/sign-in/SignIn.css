@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.sign-in-form>h1 {
+    font-family: 'Grand Hotel', cursive;
+    margin: 0.75em 0;
+}
+
+.sign-in-form {
+    width: 30vw;
+    height: auto;
+    margin: auto;
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+
+    background-color: #fff;
+}
+
+.sign-in-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sign-in-form form>input,
+button {
+    width: 25em;
+    height: 2.5em;
+    border: none;
+    padding: 0.75em;
+
+}
+
+.sign-in-form form>input {
+    background-color: whitesmoke;
+}
+
+.sign-in-btn {
+    background-color: rgb(132, 194, 242);
+    color: white;
+    font-weight: bold;
+}
+
+.sign-in-form form p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+}
+
+.sign-in-form form p > span hr {
+    width: 9em;
+    /* border: 2em solid grey; */
+}
+.ex{
+    margin-bottom: 2.5em;
+}

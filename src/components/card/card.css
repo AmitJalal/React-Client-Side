@@ -1,0 +1,45 @@
+.card{
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 10%;
+    border: 1px solid rgb(131, 128, 128); 
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.header-card{
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.name-holder{
+    display:inline-block;
+}
+.location-container{
+    font-size: small;
+    color: gray;
+}
+.dots{
+    float: right;
+}
+.image-container{
+    display: block;
+    width:100%;
+    height:78%;
+}
+
+.card-action{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.likes , .description{
+    margin-left: 10px;
+}
+#not-liked{
+    margin-right: 3px;  
+}
+.date{
+    float:right
+}
